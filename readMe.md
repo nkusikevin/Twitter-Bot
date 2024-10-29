@@ -52,4 +52,4 @@ python app.py
 
 
 
-Made with ❤️ by [@thelinuxguy](https://github.com/thelinuxguy)
+Made with ❤️ by [@nkusikevin](https://github.com/nkusikevin)
