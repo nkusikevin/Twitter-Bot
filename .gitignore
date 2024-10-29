@@ -1,0 +1,18 @@
+
+# env
+.env
+
+# conda
+.conda
+
+# venv
+venv/
+
+# .DS_Store
+.DS_Store
+
+# .venv
+.venv
+
+
+

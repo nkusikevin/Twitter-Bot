@@ -1,0 +1,41 @@
+2024-10-29 20:43:44,156 - INFO - Twitter client initialized successfully
+2024-10-29 20:43:44,207 - INFO - Language model initialized successfully
+2024-10-29 20:43:44,286 - INFO - Starting Twitter bot
+2024-10-29 20:44:10,710 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-29 20:44:10,715 - ERROR - An error occurred: Error code: 404 - {'error': {'message': 'The model `gpt-4-mini` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2024-10-29 20:44:32,712 - INFO - Twitter client initialized successfully
+2024-10-29 20:44:32,761 - INFO - Language model initialized successfully
+2024-10-29 20:44:32,841 - INFO - Starting Twitter bot
+2024-10-29 20:44:44,515 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 20:44:45,738 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 20:44:47,841 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 20:44:48,678 - INFO - Successfully posted tweet: Apple intelligence refers to the innovative AI technologies and strategies that Apple employs to enhance user experiences, drive product development, and maintain privacy, distinguished by their focus on user-centric design.
+2024-10-29 20:47:39,180 - INFO - Bot stopped by user
+2024-10-29 20:47:44,201 - INFO - Twitter client initialized successfully
+2024-10-29 20:47:44,255 - INFO - Language model initialized successfully
+2024-10-29 20:47:44,332 - INFO - Starting Twitter bot
+2024-10-29 20:48:44,433 - INFO - Bot stopped by user
+2024-10-29 20:49:00,338 - INFO - Twitter client initialized successfully
+2024-10-29 20:49:00,390 - INFO - Language model initialized successfully
+2024-10-29 20:49:00,391 - INFO - Agent initialized successfully
+2024-10-29 20:49:00,391 - INFO - Starting Twitter bot
+2024-10-29 20:49:22,156 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-29 20:49:22,162 - ERROR - An error occurred: Error code: 404 - {'error': {'message': 'The model `gpt-4-mini` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2024-10-29 20:49:52,078 - INFO - Twitter client initialized successfully
+2024-10-29 20:49:52,129 - INFO - Language model initialized successfully
+2024-10-29 20:49:52,130 - INFO - Agent initialized successfully
+2024-10-29 20:49:52,130 - INFO - Starting Twitter bot
+2024-10-29 20:50:03,453 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 20:50:06,813 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 20:50:07,410 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 20:50:08,836 - INFO - Successfully posted tweet: SpaceX's Mechazilla is a massive launch and catch structure designed to facilitate rapid reuse of Starship rockets, making space travel more sustainable and efficient.
+2024-10-29 20:53:34,241 - INFO - Bot stopped by user
+2024-10-29 20:53:39,373 - INFO - Twitter client initialized successfully
+2024-10-29 20:53:39,424 - INFO - Language model initialized successfully
+2024-10-29 20:53:39,425 - INFO - Agent initialized successfully
+2024-10-29 20:53:39,425 - INFO - Starting Twitter bot
+2024-10-29 20:54:17,031 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 20:54:19,944 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 20:54:20,769 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 20:54:22,419 - INFO - Successfully posted tweet: People should know that Mars is the 4th planet from the Sun, home to the largest volcano (Olympus Mons), experiences seasons like Earth, shows evidence of water, and is a prime candidate for future colonization. #Mars #Space
+2024-10-29 20:54:48,029 - INFO - Bot stopped by user
