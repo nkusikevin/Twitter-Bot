@@ -14,5 +14,6 @@ venv/
 # .venv
 .venv
 
-
+# twitter_bot.log
+twitter_bot.log
 

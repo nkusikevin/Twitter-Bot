@@ -39,3 +39,504 @@
 2024-10-29 20:54:20,769 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 2024-10-29 20:54:22,419 - INFO - Successfully posted tweet: People should know that Mars is the 4th planet from the Sun, home to the largest volcano (Olympus Mons), experiences seasons like Earth, shows evidence of water, and is a prime candidate for future colonization. #Mars #Space
 2024-10-29 20:54:48,029 - INFO - Bot stopped by user
+2024-10-29 21:00:54,244 - INFO - Twitter client initialized successfully
+2024-10-29 21:00:54,296 - INFO - Language model initialized successfully
+2024-10-29 21:00:54,297 - INFO - Agent initialized successfully
+2024-10-29 21:00:54,297 - INFO - Starting Twitter bot
+2024-10-29 21:01:02,915 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 404 Not Found"
+2024-10-29 21:01:02,920 - ERROR - Failed to generate topics: Error code: 404 - {'error': {'message': 'The model `gpt-4-mini` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2024-10-29 21:01:02,921 - ERROR - An error occurred: Error code: 404 - {'error': {'message': 'The model `gpt-4-mini` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+2024-10-29 21:01:23,623 - INFO - Twitter client initialized successfully
+2024-10-29 21:01:23,673 - INFO - Language model initialized successfully
+2024-10-29 21:01:23,674 - INFO - Agent initialized successfully
+2024-10-29 21:01:23,674 - INFO - Starting Twitter bot
+2024-10-29 21:01:32,571 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 21:01:32,593 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-29 21:01:32,593 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-29 21:02:35,011 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 21:02:35,016 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-29 21:02:35,017 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-29 21:03:38,379 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 21:03:38,384 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-29 21:03:38,384 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-29 21:04:43,027 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 21:04:43,031 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-29 21:04:43,031 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-29 21:05:56,551 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 21:05:56,560 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-29 21:05:56,560 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-29 21:10:20,857 - INFO - Retrying request to /chat/completions in 0.475239 seconds
+2024-10-29 21:10:21,348 - INFO - Retrying request to /chat/completions in 0.759159 seconds
+2024-10-29 21:10:22,119 - ERROR - Failed to generate topics: Connection error.
+2024-10-29 21:10:22,119 - ERROR - An error occurred: Connection error.
+2024-10-29 21:15:20,805 - INFO - Retrying request to /chat/completions in 0.495879 seconds
+2024-10-29 21:15:21,323 - INFO - Retrying request to /chat/completions in 0.966803 seconds
+2024-10-29 21:15:22,297 - ERROR - Failed to generate topics: Connection error.
+2024-10-29 21:15:22,297 - ERROR - An error occurred: Connection error.
+2024-10-29 21:20:06,866 - INFO - Retrying request to /chat/completions in 0.408715 seconds
+2024-10-29 21:20:07,281 - INFO - Retrying request to /chat/completions in 0.884209 seconds
+2024-10-29 21:20:08,177 - ERROR - Failed to generate topics: Connection error.
+2024-10-29 21:20:08,177 - ERROR - An error occurred: Connection error.
+2024-10-29 21:21:25,738 - INFO - Retrying request to /chat/completions in 0.408415 seconds
+2024-10-29 21:21:26,162 - INFO - Retrying request to /chat/completions in 0.863894 seconds
+2024-10-29 21:21:27,040 - ERROR - Failed to generate topics: Connection error.
+2024-10-29 21:21:27,040 - ERROR - An error occurred: Connection error.
+2024-10-29 21:26:22,244 - INFO - Retrying request to /chat/completions in 0.492086 seconds
+2024-10-29 21:26:22,752 - INFO - Retrying request to /chat/completions in 0.790724 seconds
+2024-10-29 21:26:23,559 - ERROR - Failed to generate topics: Connection error.
+2024-10-29 21:26:23,559 - ERROR - An error occurred: Connection error.
+2024-10-29 21:33:30,409 - INFO - Retrying request to /chat/completions in 0.472094 seconds
+2024-10-29 21:33:30,896 - INFO - Retrying request to /chat/completions in 0.893045 seconds
+2024-10-29 21:33:31,805 - ERROR - Failed to generate topics: Connection error.
+2024-10-29 21:33:31,806 - ERROR - An error occurred: Connection error.
+2024-10-29 21:35:31,286 - INFO - Retrying request to /chat/completions in 0.426294 seconds
+2024-10-29 21:35:31,727 - INFO - Retrying request to /chat/completions in 0.889476 seconds
+2024-10-29 21:35:32,630 - ERROR - Failed to generate topics: Connection error.
+2024-10-29 21:35:32,630 - ERROR - An error occurred: Connection error.
+2024-10-29 21:39:24,103 - INFO - Retrying request to /chat/completions in 0.476619 seconds
+2024-10-29 21:39:24,596 - INFO - Retrying request to /chat/completions in 0.813635 seconds
+2024-10-29 21:39:25,423 - ERROR - Failed to generate topics: Connection error.
+2024-10-29 21:39:25,424 - ERROR - An error occurred: Connection error.
+2024-10-29 21:40:36,866 - INFO - Retrying request to /chat/completions in 0.427031 seconds
+2024-10-29 21:40:37,309 - INFO - Retrying request to /chat/completions in 0.815345 seconds
+2024-10-29 21:40:38,130 - ERROR - Failed to generate topics: Connection error.
+2024-10-29 21:40:38,130 - ERROR - An error occurred: Connection error.
+2024-10-29 21:42:10,596 - INFO - Retrying request to /chat/completions in 0.377157 seconds
+2024-10-29 21:42:10,987 - INFO - Retrying request to /chat/completions in 0.947219 seconds
+2024-10-29 21:42:11,950 - ERROR - Failed to generate topics: Connection error.
+2024-10-29 21:42:11,951 - ERROR - An error occurred: Connection error.
+2024-10-29 21:43:15,088 - INFO - Retrying request to /chat/completions in 0.484672 seconds
+2024-10-29 21:43:15,582 - INFO - Retrying request to /chat/completions in 0.768418 seconds
+2024-10-29 21:43:16,574 - ERROR - Failed to generate topics: Connection error.
+2024-10-29 21:43:16,574 - ERROR - An error occurred: Connection error.
+2024-10-29 21:44:24,567 - INFO - Retrying request to /chat/completions in 0.376021 seconds
+2024-10-29 21:44:24,956 - INFO - Retrying request to /chat/completions in 0.966689 seconds
+2024-10-29 21:44:25,931 - ERROR - Failed to generate topics: Connection error.
+2024-10-29 21:44:25,932 - ERROR - An error occurred: Connection error.
+2024-10-29 21:45:27,903 - INFO - Retrying request to /chat/completions in 0.406211 seconds
+2024-10-29 21:45:28,322 - INFO - Retrying request to /chat/completions in 0.804252 seconds
+2024-10-29 21:45:29,136 - ERROR - Failed to generate topics: Connection error.
+2024-10-29 21:45:29,136 - ERROR - An error occurred: Connection error.
+2024-10-29 21:46:29,453 - INFO - Retrying request to /chat/completions in 0.485870 seconds
+2024-10-29 21:46:29,957 - INFO - Retrying request to /chat/completions in 0.978021 seconds
+2024-10-29 21:46:30,949 - ERROR - Failed to generate topics: Connection error.
+2024-10-29 21:46:30,950 - ERROR - An error occurred: Connection error.
+2024-10-29 21:47:43,746 - INFO - Retrying request to /chat/completions in 0.453937 seconds
+2024-10-29 21:47:44,210 - INFO - Retrying request to /chat/completions in 0.961644 seconds
+2024-10-29 21:47:45,181 - ERROR - Failed to generate topics: Connection error.
+2024-10-29 21:47:45,181 - ERROR - An error occurred: Connection error.
+2024-10-29 21:48:49,165 - INFO - Retrying request to /chat/completions in 0.465516 seconds
+2024-10-29 21:48:49,642 - INFO - Retrying request to /chat/completions in 0.796258 seconds
+2024-10-29 21:48:50,455 - ERROR - Failed to generate topics: Connection error.
+2024-10-29 21:48:50,455 - ERROR - An error occurred: Connection error.
+2024-10-29 21:49:51,161 - INFO - Retrying request to /chat/completions in 0.499381 seconds
+2024-10-29 21:49:51,670 - INFO - Retrying request to /chat/completions in 0.909557 seconds
+2024-10-29 21:49:52,594 - ERROR - Failed to generate topics: Connection error.
+2024-10-29 21:49:52,595 - ERROR - An error occurred: Connection error.
+2024-10-29 21:50:58,026 - INFO - Retrying request to /chat/completions in 0.417649 seconds
+2024-10-29 21:50:58,453 - INFO - Retrying request to /chat/completions in 0.924087 seconds
+2024-10-29 21:50:59,385 - ERROR - Failed to generate topics: Connection error.
+2024-10-29 21:50:59,387 - ERROR - An error occurred: Connection error.
+2024-10-29 21:52:01,864 - INFO - Retrying request to /chat/completions in 0.454651 seconds
+2024-10-29 21:52:02,334 - INFO - Retrying request to /chat/completions in 0.833098 seconds
+2024-10-29 21:52:03,182 - ERROR - Failed to generate topics: Connection error.
+2024-10-29 21:52:03,183 - ERROR - An error occurred: Connection error.
+2024-10-29 21:53:04,472 - INFO - Retrying request to /chat/completions in 0.477412 seconds
+2024-10-29 21:53:04,964 - INFO - Retrying request to /chat/completions in 0.884458 seconds
+2024-10-29 21:53:05,859 - ERROR - Failed to generate topics: Connection error.
+2024-10-29 21:53:05,860 - ERROR - An error occurred: Connection error.
+2024-10-29 21:54:07,685 - INFO - Retrying request to /chat/completions in 0.462893 seconds
+2024-10-29 21:54:08,164 - INFO - Retrying request to /chat/completions in 0.802561 seconds
+2024-10-29 21:54:08,974 - ERROR - Failed to generate topics: Connection error.
+2024-10-29 21:54:08,974 - ERROR - An error occurred: Connection error.
+2024-10-29 21:55:09,865 - INFO - Retrying request to /chat/completions in 0.432946 seconds
+2024-10-29 21:55:10,304 - INFO - Retrying request to /chat/completions in 0.827812 seconds
+2024-10-29 21:55:11,143 - ERROR - Failed to generate topics: Connection error.
+2024-10-29 21:55:11,144 - ERROR - An error occurred: Connection error.
+2024-10-29 21:56:18,232 - INFO - Retrying request to /chat/completions in 0.486158 seconds
+2024-10-29 21:56:18,733 - INFO - Retrying request to /chat/completions in 0.986837 seconds
+2024-10-29 21:56:19,735 - ERROR - Failed to generate topics: Connection error.
+2024-10-29 21:56:19,735 - ERROR - An error occurred: Connection error.
+2024-10-29 21:57:20,569 - INFO - Retrying request to /chat/completions in 0.463140 seconds
+2024-10-29 21:57:21,047 - INFO - Retrying request to /chat/completions in 0.909535 seconds
+2024-10-29 21:57:21,973 - ERROR - Failed to generate topics: Connection error.
+2024-10-29 21:57:21,973 - ERROR - An error occurred: Connection error.
+2024-10-29 21:58:25,079 - INFO - Retrying request to /chat/completions in 0.407495 seconds
+2024-10-29 21:58:25,495 - INFO - Retrying request to /chat/completions in 0.869818 seconds
+2024-10-29 21:58:26,374 - ERROR - Failed to generate topics: Connection error.
+2024-10-29 21:58:26,374 - ERROR - An error occurred: Connection error.
+2024-10-29 22:00:06,941 - INFO - Retrying request to /chat/completions in 0.383325 seconds
+2024-10-29 22:00:07,336 - INFO - Retrying request to /chat/completions in 0.936830 seconds
+2024-10-29 22:00:08,279 - ERROR - Failed to generate topics: Connection error.
+2024-10-29 22:00:08,280 - ERROR - An error occurred: Connection error.
+2024-10-29 22:01:10,335 - INFO - Retrying request to /chat/completions in 0.487112 seconds
+2024-10-29 22:01:10,839 - INFO - Retrying request to /chat/completions in 0.943456 seconds
+2024-10-29 22:01:11,795 - ERROR - Failed to generate topics: Connection error.
+2024-10-29 22:01:11,795 - ERROR - An error occurred: Connection error.
+2024-10-29 22:02:15,471 - INFO - Retrying request to /chat/completions in 0.468382 seconds
+2024-10-29 22:02:15,953 - INFO - Retrying request to /chat/completions in 0.928404 seconds
+2024-10-29 22:02:16,891 - ERROR - Failed to generate topics: Connection error.
+2024-10-29 22:02:16,892 - ERROR - An error occurred: Connection error.
+2024-10-29 22:03:28,038 - INFO - Retrying request to /chat/completions in 0.441600 seconds
+2024-10-29 22:03:28,486 - INFO - Retrying request to /chat/completions in 0.865881 seconds
+2024-10-29 22:03:29,365 - ERROR - Failed to generate topics: Connection error.
+2024-10-29 22:03:29,365 - ERROR - An error occurred: Connection error.
+2024-10-29 22:04:33,087 - INFO - Retrying request to /chat/completions in 0.390834 seconds
+2024-10-29 22:04:33,482 - INFO - Retrying request to /chat/completions in 0.914944 seconds
+2024-10-29 22:04:34,404 - ERROR - Failed to generate topics: Connection error.
+2024-10-29 22:04:34,405 - ERROR - An error occurred: Connection error.
+2024-10-29 22:05:35,509 - INFO - Retrying request to /chat/completions in 0.492996 seconds
+2024-10-29 22:05:36,017 - INFO - Retrying request to /chat/completions in 0.823170 seconds
+2024-10-29 22:05:36,845 - ERROR - Failed to generate topics: Connection error.
+2024-10-29 22:05:36,845 - ERROR - An error occurred: Connection error.
+2024-10-29 22:06:39,871 - INFO - Retrying request to /chat/completions in 0.379129 seconds
+2024-10-29 22:06:40,260 - INFO - Retrying request to /chat/completions in 0.889732 seconds
+2024-10-29 22:06:41,163 - ERROR - Failed to generate topics: Connection error.
+2024-10-29 22:06:41,163 - ERROR - An error occurred: Connection error.
+2024-10-29 22:13:08,248 - INFO - Retrying request to /chat/completions in 0.397303 seconds
+2024-10-29 22:13:08,663 - INFO - Retrying request to /chat/completions in 0.848869 seconds
+2024-10-29 22:13:09,525 - ERROR - Failed to generate topics: Connection error.
+2024-10-29 22:13:09,526 - ERROR - An error occurred: Connection error.
+2024-10-29 22:14:30,079 - INFO - Retrying request to /chat/completions in 0.419827 seconds
+2024-10-29 22:14:30,511 - INFO - Retrying request to /chat/completions in 0.789634 seconds
+2024-10-29 22:14:31,309 - ERROR - Failed to generate topics: Connection error.
+2024-10-29 22:14:31,309 - ERROR - An error occurred: Connection error.
+2024-10-29 22:15:32,458 - INFO - Retrying request to /chat/completions in 0.444747 seconds
+2024-10-29 22:15:32,914 - INFO - Retrying request to /chat/completions in 0.865017 seconds
+2024-10-29 22:15:33,792 - ERROR - Failed to generate topics: Connection error.
+2024-10-29 22:15:33,793 - ERROR - An error occurred: Connection error.
+2024-10-29 22:23:40,292 - INFO - Retrying request to /chat/completions in 0.377466 seconds
+2024-10-29 22:23:40,679 - INFO - Retrying request to /chat/completions in 0.897552 seconds
+2024-10-29 22:23:41,583 - ERROR - Failed to generate topics: Connection error.
+2024-10-29 22:23:41,584 - ERROR - An error occurred: Connection error.
+2024-10-29 22:24:42,305 - INFO - Retrying request to /chat/completions in 0.463960 seconds
+2024-10-29 22:24:42,776 - INFO - Retrying request to /chat/completions in 0.773251 seconds
+2024-10-29 22:24:43,563 - ERROR - Failed to generate topics: Connection error.
+2024-10-29 22:24:43,564 - ERROR - An error occurred: Connection error.
+2024-10-29 22:25:44,217 - INFO - Retrying request to /chat/completions in 0.420989 seconds
+2024-10-29 22:25:44,650 - INFO - Retrying request to /chat/completions in 0.830364 seconds
+2024-10-29 22:25:45,495 - ERROR - Failed to generate topics: Connection error.
+2024-10-29 22:25:45,496 - ERROR - An error occurred: Connection error.
+2024-10-29 22:26:48,761 - INFO - Retrying request to /chat/completions in 0.458810 seconds
+2024-10-29 22:26:49,236 - INFO - Retrying request to /chat/completions in 0.794482 seconds
+2024-10-29 22:26:50,046 - ERROR - Failed to generate topics: Connection error.
+2024-10-29 22:26:50,047 - ERROR - An error occurred: Connection error.
+2024-10-29 22:28:00,524 - INFO - Retrying request to /chat/completions in 0.383657 seconds
+2024-10-29 22:28:00,924 - INFO - Retrying request to /chat/completions in 0.935082 seconds
+2024-10-29 22:28:01,870 - ERROR - Failed to generate topics: Connection error.
+2024-10-29 22:28:01,870 - ERROR - An error occurred: Connection error.
+2024-10-29 22:29:06,972 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 22:29:06,985 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-29 22:29:06,985 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-29 22:31:22,008 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 22:31:22,015 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-29 22:31:22,015 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-29 22:47:40,513 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 22:47:40,517 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-29 22:47:40,518 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-29 22:50:39,580 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 22:50:39,588 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-29 22:50:39,588 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-29 22:52:00,609 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 22:52:00,615 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-29 22:52:00,615 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-29 22:53:29,903 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 22:53:29,928 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-29 22:53:29,929 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-29 22:54:46,082 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 22:54:46,089 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-29 22:54:46,090 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:07:08,106 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 23:07:08,114 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:07:08,114 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:08:11,487 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 23:08:11,492 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:08:11,492 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:09:15,363 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 23:09:15,369 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:09:15,370 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:10:18,539 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 23:10:18,543 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:10:18,543 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:11:22,490 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 23:11:22,512 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:11:22,512 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:12:26,203 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 23:12:26,210 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:12:26,210 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:13:29,204 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 23:13:29,210 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:13:29,210 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:14:32,334 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 23:14:32,359 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:14:32,359 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:15:36,336 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 23:15:36,343 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:15:36,344 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:16:40,464 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 23:16:40,470 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:16:40,470 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:17:44,280 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 23:17:44,285 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:17:44,286 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:18:48,148 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 23:18:48,156 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:18:48,156 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:19:51,938 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 23:19:51,944 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:19:51,945 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:20:55,295 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 23:20:55,302 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:20:55,302 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:22:00,235 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 23:22:00,243 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:22:00,243 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:23:02,998 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 23:23:03,007 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:23:03,007 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:24:05,753 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 23:24:05,781 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:24:05,781 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:25:09,856 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 23:25:09,862 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:25:09,862 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:26:13,366 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 23:26:13,372 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:26:13,372 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:27:16,181 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 23:27:16,186 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:27:16,186 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:28:19,382 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 23:28:19,385 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:28:19,386 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:29:23,282 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 23:29:23,287 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:29:23,287 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:30:26,400 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 23:30:26,407 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:30:26,407 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:31:29,725 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 23:31:29,731 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:31:29,731 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:32:32,560 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 23:32:32,565 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:32:32,565 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:33:36,650 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 23:33:36,662 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:33:36,663 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:34:40,343 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 23:34:40,351 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:34:40,351 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:35:43,367 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 23:35:43,373 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:35:43,373 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:36:45,992 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 23:36:46,008 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:36:46,009 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:37:50,042 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 23:37:50,050 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:37:50,051 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:38:52,196 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 23:38:52,209 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:38:52,209 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:39:55,605 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 23:39:55,611 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:39:55,611 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:40:58,552 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 23:40:58,559 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:40:58,559 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:42:01,426 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 23:42:01,430 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:42:01,431 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:43:04,234 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 23:43:04,240 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:43:04,241 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:44:07,271 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 23:44:07,278 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:44:07,278 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:45:10,366 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 23:45:10,372 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:45:10,372 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:48:46,882 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 23:48:46,886 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:48:46,886 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:49:49,847 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 23:49:49,852 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:49:49,853 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:50:53,140 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 23:50:53,145 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:50:53,145 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:51:56,470 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 23:51:56,476 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:51:56,476 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:52:59,343 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 23:52:59,368 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:52:59,368 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:54:01,766 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 23:54:01,772 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:54:01,772 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:55:05,143 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 23:55:05,149 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:55:05,149 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:56:08,772 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 23:56:08,776 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:56:08,777 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:57:13,322 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 23:57:13,328 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:57:13,329 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:58:16,008 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 23:58:16,011 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:58:16,012 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:59:18,232 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-29 23:59:18,242 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-29 23:59:18,243 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-30 00:00:21,380 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 00:00:21,385 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-30 00:00:21,385 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-30 00:01:26,317 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 00:01:26,322 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-30 00:01:26,322 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-30 00:02:29,337 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 00:02:29,356 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-30 00:02:29,357 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-30 00:03:31,936 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 00:03:31,942 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-30 00:03:31,942 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-30 00:04:35,956 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 00:04:35,961 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-30 00:04:35,961 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-30 00:05:39,865 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 00:05:39,870 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-30 00:05:39,870 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-30 00:06:43,199 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 00:06:43,202 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-30 00:06:43,202 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-30 00:07:48,832 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 00:07:48,837 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-30 00:07:48,837 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-30 00:08:51,755 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 00:08:51,761 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-30 00:08:51,761 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-30 00:09:55,754 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 00:09:55,758 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-30 00:09:55,759 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-30 00:10:58,772 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 00:10:58,780 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-30 00:10:58,780 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-30 00:12:02,358 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 00:12:02,365 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-30 00:12:02,365 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-30 00:13:05,369 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 00:13:05,373 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-30 00:13:05,373 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-30 00:14:08,646 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 00:14:08,651 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-30 00:14:08,651 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-30 00:15:12,035 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 00:15:12,040 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-30 00:15:12,040 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-30 00:16:15,130 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 00:16:15,160 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-30 00:16:15,160 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-30 00:17:17,827 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 00:17:17,833 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-30 00:17:17,833 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-30 00:18:20,988 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 00:18:20,995 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-30 00:18:20,996 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-30 00:19:24,130 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 00:19:24,136 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-30 00:19:24,137 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-30 00:20:29,040 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 00:20:29,043 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-30 00:20:29,044 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-30 00:21:32,779 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 00:21:32,785 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-30 00:21:32,785 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-30 00:22:35,624 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 00:22:35,628 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-30 00:22:35,629 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-30 00:23:40,893 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 00:23:40,897 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-30 00:23:40,898 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-30 00:24:44,440 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 00:24:44,445 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-30 00:24:44,445 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-30 00:25:47,519 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 00:25:47,525 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-30 00:25:47,525 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-30 00:26:51,489 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 00:26:51,496 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-30 00:26:51,496 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-30 00:27:54,675 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 00:27:54,681 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-30 00:27:54,681 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-30 00:28:58,673 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 00:28:58,676 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-30 00:28:58,676 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-30 00:30:01,768 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 00:30:01,774 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-30 00:30:01,775 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-30 00:31:04,786 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 00:31:04,788 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-30 00:31:04,789 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-30 00:33:30,229 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 00:33:30,236 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-30 00:33:30,236 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-30 00:49:35,728 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 00:49:35,735 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-30 00:49:35,735 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-30 01:07:38,163 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 01:07:38,168 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-30 01:07:38,168 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-30 01:23:42,497 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 01:23:42,507 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-30 01:23:42,508 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-30 01:39:46,559 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 01:39:46,566 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-30 01:39:46,567 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-30 02:10:50,998 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 02:10:51,005 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-30 02:10:51,005 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-30 02:26:55,387 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 02:26:55,392 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-30 02:26:55,392 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-30 02:33:22,654 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 02:33:22,660 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-30 02:33:22,660 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-30 04:49:24,373 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 04:49:24,380 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-30 04:49:24,380 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-30 05:05:28,066 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 05:05:28,073 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-30 05:05:28,073 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-30 05:21:32,122 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 05:21:32,130 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-30 05:21:32,130 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-30 05:52:38,127 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 05:52:38,134 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-30 05:52:38,135 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-30 06:00:36,584 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 06:00:36,590 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-30 06:00:36,591 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-30 11:15:50,588 - INFO - Bot stopped by user
+2024-10-30 11:15:55,968 - INFO - Twitter client initialized successfully
+2024-10-30 11:15:56,018 - INFO - Language model initialized successfully
+2024-10-30 11:15:56,020 - INFO - Agent initialized successfully
+2024-10-30 11:15:56,020 - INFO - Starting Twitter bot
+2024-10-30 11:16:07,172 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 11:16:07,194 - ERROR - Failed to generate topics: Expecting value: line 1 column 1 (char 0)
+2024-10-30 11:16:07,194 - ERROR - An error occurred: Expecting value: line 1 column 1 (char 0)
+2024-10-30 11:17:38,372 - INFO - Twitter client initialized successfully
+2024-10-30 11:17:38,423 - INFO - Language model initialized successfully
+2024-10-30 11:17:38,423 - CRITICAL - Fatal error: 'TwitterBot' object has no attribute 'setup_agent'
+2024-10-30 11:18:34,319 - INFO - Twitter client initialized successfully
+2024-10-30 11:18:34,369 - INFO - Language model initialized successfully
+2024-10-30 11:18:34,370 - INFO - Agent initialized successfully
+2024-10-30 11:18:34,370 - INFO - Starting Twitter bot
+2024-10-30 11:18:43,237 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 11:18:43,252 - INFO - Generated 10 topics for category: AI technology
+2024-10-30 11:18:43,252 - INFO - Refreshed topics for category: AI technology
+2024-10-30 11:18:43,252 - INFO - Using topic: The impact of AI on remote work: Enhancing productivity or causing isolation?
+2024-10-30 11:18:44,390 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 11:18:45,340 - INFO - Successfully posted tweet: 🚀 AI is reshaping remote work! It boosts productivity with smart tools and automation, but is it also creating a feeling of isolation? 🤔 Let's explore if our digital helpers are connecting us or driving us apart. What do you think? #RemoteWork #AIImpact
