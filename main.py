@@ -1,6 +1,5 @@
+from flask import Flask, jsonify
 from langchain.agents import AgentExecutor, create_react_agent
-from langchain.agents.format_scratchpad import format_log_to_str
-from langchain.agents.output_parsers import ReActSingleInputOutputParser
 from langchain.tools import Tool
 from langchain_core.prompts import PromptTemplate
 from langchain_openai import ChatOpenAI
@@ -11,7 +10,8 @@ from dotenv import load_dotenv
 import time
 import logging
 import json
-from typing import Optional, List, Dict
+from typing import Optional, List
+from apscheduler.schedulers.background import BackgroundScheduler
 
 # Configure logging
 logging.basicConfig(
@@ -20,9 +20,12 @@ logging.basicConfig(
     handlers=[logging.FileHandler("twitter_bot.log"), logging.StreamHandler()],
 )
 
+app = Flask(__name__)
+
 
 class TwitterBot:
-    def __init__(self):
+
+    def __init__(self, initial_category="AI technology"):
         self.load_environment()
         self.setup_twitter_client()
         self.setup_llm()
@@ -30,7 +33,7 @@ class TwitterBot:
         self.tweet_count = 0
         self.last_tweet_time = datetime.now() - timedelta(days=30)
         self.current_topics = []
-        self.category = ""
+        self.category = initial_category
 
     def load_environment(self):
         """Load environment variables and validate Twitter credentials."""
@@ -68,7 +71,7 @@ class TwitterBot:
     def setup_llm(self):
         """Initialize the language model."""
         try:
-            self.llm = ChatOpenAI(model="gpt-4o-mini", temperature=0.9)
+            self.llm = ChatOpenAI(model="gpt-4-0125-preview", temperature=0.9)
             logging.info("Language model initialized successfully")
         except Exception as e:
             logging.error(f"Failed to initialize language model: {str(e)}")
@@ -274,16 +277,116 @@ class TwitterBot:
                 logging.error(f"An error occurred: {str(e)}")
                 time.sleep(60)  # Wait a minute before retrying
 
+    def run_once(self):
+        """Single execution of the bot logic."""
+        try:
+            if not self.check_rate_limits():
+                logging.warning("Rate limit reached, skipping this run")
+                return
 
-# Define the entry point function for Google Cloud
-def gcp_cfn_entry(request):
+            # Refresh topics if needed
+            self.refresh_topics()
+
+            # Get next topic
+            current_topic = self.current_topics.pop(0)
+            logging.info(f"Using topic: {current_topic}")
+
+            # Generate and post tweet
+            tweet = self.generate_tweet(current_topic)
+            self.post_tweet(tweet)
+
+            # Update rate limiting trackers
+            self.last_tweet_time = datetime.now()
+            self.tweet_count += 1
+
+            logging.info("Successfully completed tweet cycle")
+            return {"status": "success", "tweet": tweet}
+
+        except Exception as e:
+            logging.error(f"An error occurred: {str(e)}")
+            return {"status": "error", "message": str(e)}
+
+
+# Create a global bot instance
+twitter_bot = None
+
+
+def initialize_bot(initial_category="AI technology"):
+    """Initialize the Twitter bot if it hasn't been initialized yet"""
+    global twitter_bot
+    if twitter_bot is None:
+        twitter_bot = TwitterBot(initial_category)
+        logging.info("Twitter bot initialized")
+        # Immediately run the first tweet
+        result = twitter_bot.run_once()
+        logging.info(f"Initial tweet result: {result}")
+
+
+def scheduled_tweet():
+    """Function to be called by the scheduler"""
+    global twitter_bot
+    if twitter_bot:
+        twitter_bot.run_once()
+
+
+# Initialize scheduler with a different approach
+scheduler = BackgroundScheduler()
+
+
+@app.route("/")
+def home():
+    """Home endpoint to check if service is running"""
+    return jsonify({"status": "running", "message": "Twitter bot service is active"})
+
+
+@app.route("/status")
+def status():
+    """Endpoint to check bot status"""
+    global twitter_bot
+    if twitter_bot:
+        return jsonify(
+            {
+                "status": "active",
+                "category": twitter_bot.category,
+                "tweet_count": twitter_bot.tweet_count,
+                "last_tweet_time": str(twitter_bot.last_tweet_time),
+            }
+        )
+    return jsonify({"status": "inactive"})
+
+
+@app.route("/change-category/<new_category>")
+def change_category(new_category):
+    """Endpoint to change the bot's category"""
+    global twitter_bot
+    if twitter_bot:
+        twitter_bot.category = new_category
+        twitter_bot.current_topics = []  # Force topic refresh
+        return jsonify(
+            {"status": "success", "message": f"Category changed to: {new_category}"}
+        )
+    return jsonify({"status": "error", "message": "Bot not initialized"}), 500
+
+
+@app.route("/_ah/warmup")
+def warmup():
+    """Warmup endpoint for Google Cloud Run"""
     return "OK"
 
 
+def create_app():
+    """Create and configure the Flask app"""
+    # Initialize the bot first
+    initialize_bot()
+
+    # Start the scheduler after initialization
+    scheduler.add_job(func=scheduled_tweet, trigger="interval", hours=1)
+    scheduler.start()
+
+    return app
+
+
 if __name__ == "__main__":
-    try:
-        bot = TwitterBot()
-        bot.run()
-    except Exception as e:
-        logging.critical(f"Fatal error: {str(e)}")
-        raise
+    app = create_app()
+    port = int(os.environ.get("PORT", 8080))
+    app.run(host="0.0.0.0", port=port)

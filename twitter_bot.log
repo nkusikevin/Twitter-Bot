@@ -579,3 +579,57 @@ You are not permitted to perform this action.
 2024-10-30 20:43:16,557 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 2024-10-30 20:43:17,346 - INFO - Successfully posted tweet: 🔍 Curious about Bitcoin? It all starts with the blockchain! This revolutionary tech ensures transparency and security in every transaction. 🌐 Let’s dive into how it works and why it matters in our digital world! 💡 #Bitcoin #BlockchainEducation
 2024-10-30 23:23:09,549 - INFO - Bot stopped by user
+2024-10-31 21:07:52,872 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-10-31 21:07:52,874 - INFO - Twitter client initialized successfully
+2024-10-31 21:07:52,925 - INFO - Language model initialized successfully
+2024-10-31 21:07:52,926 - INFO - Agent initialized successfully
+2024-10-31 21:07:52,926 - INFO - Twitter bot initialized
+2024-10-31 21:07:52,926 - INFO - Added job "scheduled_tweet" to job store "default"
+2024-10-31 21:07:52,926 - INFO - Scheduler started
+2024-10-31 21:07:52,932 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.120.241:8080
+2024-10-31 21:07:52,932 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-31 21:09:10,201 - INFO - 127.0.0.1 - - [31/Oct/2024 21:09:10] "GET /status HTTP/1.1" 200 -
+2024-10-31 21:09:12,100 - INFO - 127.0.0.1 - - [31/Oct/2024 21:09:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-10-31 21:13:35,095 - INFO - Twitter client initialized successfully
+2024-10-31 21:13:35,147 - INFO - Language model initialized successfully
+2024-10-31 21:13:35,148 - INFO - Agent initialized successfully
+2024-10-31 21:13:35,148 - INFO - Twitter bot initialized
+2024-10-31 21:13:40,575 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-31 21:13:40,590 - INFO - Generated 10 topics for category: AI technology
+2024-10-31 21:13:40,590 - INFO - Refreshed topics for category: AI technology
+2024-10-31 21:13:40,590 - INFO - Using topic: The ethical dilemmas of AI: Navigating the future with care
+2024-10-31 21:13:42,865 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-31 21:13:43,643 - INFO - Successfully posted tweet: "🤖 As AI becomes our future's backbone, how do we ensure it's ethical? From privacy concerns to decision-making, let's navigate this journey with care. Your thoughts? 💡🌍 #AIethics #FutureTech"
+2024-10-31 21:13:43,644 - INFO - Successfully completed tweet cycle
+2024-10-31 21:13:43,644 - INFO - Initial tweet result: {'status': 'success', 'tweet': '"🤖 As AI becomes our future\'s backbone, how do we ensure it\'s ethical? From privacy concerns to decision-making, let\'s navigate this journey with care. Your thoughts? 💡🌍 #AIethics #FutureTech"'}
+2024-10-31 21:13:43,646 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-10-31 21:13:43,647 - INFO - Added job "scheduled_tweet" to job store "default"
+2024-10-31 21:13:43,647 - INFO - Scheduler started
+2024-10-31 21:13:43,654 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.120.241:8080
+2024-10-31 21:13:43,654 - INFO - [33mPress CTRL+C to quit[0m
+2024-10-31 21:19:41,914 - INFO - Twitter client initialized successfully
+2024-10-31 21:19:41,966 - INFO - Language model initialized successfully
+2024-10-31 21:19:41,967 - INFO - Agent initialized successfully
+2024-10-31 21:19:41,967 - INFO - Twitter bot initialized
+2024-10-31 21:19:47,136 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-31 21:19:47,160 - INFO - Generated 10 topics for category: AI technology
+2024-10-31 21:19:47,160 - INFO - Refreshed topics for category: AI technology
+2024-10-31 21:19:47,160 - INFO - Using topic: How AI is revolutionizing healthcare diagnostics
+2024-10-31 21:19:50,090 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-31 21:19:50,931 - INFO - Successfully posted tweet: "🤖💡 AI is transforming the way we approach healthcare diagnostics! From early detection to tailor-made treatment plans, the future of medicine is here. 🩺🔍 Stay tuned to see how technology is becoming our ally in ensuring healthier lives! #AIHealthRevolution #TechForGood"
+2024-10-31 21:19:50,932 - INFO - Successfully completed tweet cycle
+2024-10-31 21:19:50,932 - INFO - Initial tweet result: {'status': 'success', 'tweet': '"🤖💡 AI is transforming the way we approach healthcare diagnostics! From early detection to tailor-made treatment plans, the future of medicine is here. 🩺🔍 Stay tuned to see how technology is becoming our ally in ensuring healthier lives! #AIHealthRevolution #TechForGood"'}
+2024-10-31 21:19:50,933 - INFO - Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2024-10-31 21:19:50,933 - INFO - Added job "scheduled_tweet" to job store "default"
+2024-10-31 21:19:50,934 - INFO - Scheduler started
+2024-10-31 21:19:50,939 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.120.241:8080
+2024-10-31 21:19:50,939 - INFO - [33mPress CTRL+C to quit[0m
