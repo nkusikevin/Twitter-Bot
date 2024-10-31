@@ -540,3 +540,42 @@
 2024-10-30 11:18:43,252 - INFO - Using topic: The impact of AI on remote work: Enhancing productivity or causing isolation?
 2024-10-30 11:18:44,390 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 2024-10-30 11:18:45,340 - INFO - Successfully posted tweet: 🚀 AI is reshaping remote work! It boosts productivity with smart tools and automation, but is it also creating a feeling of isolation? 🤔 Let's explore if our digital helpers are connecting us or driving us apart. What do you think? #RemoteWork #AIImpact
+2024-10-30 12:42:51,814 - INFO - Bot stopped by user
+2024-10-30 12:42:57,953 - INFO - Twitter client initialized successfully
+2024-10-30 12:42:57,987 - INFO - Language model initialized successfully
+2024-10-30 12:42:57,988 - INFO - Agent initialized successfully
+2024-10-30 12:42:57,988 - INFO - Starting Twitter bot
+2024-10-30 12:43:21,454 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 12:43:21,475 - INFO - Generated 10 topics for category: bitcoin today
+2024-10-30 12:43:21,475 - INFO - Refreshed topics for category: bitcoin today
+2024-10-30 12:43:21,475 - INFO - Using topic: Is Bitcoin still a hedge against inflation in today's economy?
+2024-10-30 12:43:23,218 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 12:43:23,960 - INFO - Successfully posted tweet: Is Bitcoin still a reliable hedge against inflation in our ever-changing economy? 💰📈 With rising prices and unpredictable markets, is it time to reevaluate its role in your portfolio? Let’s dive into the debate! What are your thoughts? #Bitcoin #InflationInsights
+2024-10-30 13:43:26,215 - INFO - Using topic: How the recent market trends are impacting Bitcoin adoption
+2024-10-30 13:43:27,991 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 13:43:28,778 - INFO - Successfully posted tweet: 📈 As market trends shift, more people are turning to Bitcoin as a hedge against uncertainty. The wave of institutional interest is sparking a new era of adoption! 🌍💰 Are you ready to ride the crypto wave? #Bitcoin #CryptoTrends
+2024-10-30 14:43:28,667 - INFO - Using topic: Exploring the impact of Bitcoin mining on the environment
+2024-10-30 14:43:30,798 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 14:43:31,579 - INFO - Successfully posted tweet: 🌍💻 Curious about Bitcoin mining's environmental footprint? As we dive into the energy debate, it's crucial to understand both its potential and its impact. Join us on this journey to explore how we can harness innovation while protecting our planet! #Bitcoin #EcoConsciousCrypto
+2024-10-30 16:42:00,753 - INFO - Using topic: Bitcoin vs. Altcoins: Which investment is better for 2023?
+2024-10-30 16:42:03,307 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 16:42:03,995 - ERROR - Failed to post tweet: 403 Forbidden
+You are not permitted to perform this action.
+2024-10-30 16:42:03,996 - ERROR - An error occurred: 403 Forbidden
+You are not permitted to perform this action.
+2024-10-30 16:43:04,005 - INFO - Using topic: The role of Bitcoin in decentralized finance (DeFi)
+2024-10-30 16:43:05,506 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 16:43:05,974 - INFO - Successfully posted tweet: 🌐💰 Bitcoin isn't just digital gold—it's a key player in the DeFi revolution! By enabling seamless transactions and smart contracts, BTC is paving the way for a more transparent and inclusive financial system. Ready to explore the future of finance? #Bitcoin #DeFi
+2024-10-30 17:43:05,990 - INFO - Using topic: How regulatory changes could shape Bitcoin's future
+2024-10-30 17:43:08,132 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 17:43:08,885 - INFO - Successfully posted tweet: 🔍 As regulatory changes loom, Bitcoin's future hangs in the balance! Will we see greater adoption and stability, or tighter restrictions? The shift could redefine crypto's landscape 🚀. What are your thoughts on how these changes will unfold? #Bitcoin #CryptoFuture
+2024-10-30 18:43:08,886 - INFO - Using topic: The psychology of Bitcoin investors: FOMO vs. HODL
+2024-10-30 18:43:11,185 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 18:43:11,929 - INFO - Successfully posted tweet: 💰 Dive into the minds of Bitcoin investors! 🧠 Are you driven by FOMO, chasing the next surge, or a steadfast HODLer, holding for the long haul? 🌊 Understanding these psychologies can shape your strategy. Which camp do you belong to? Let’s discuss! #Bitcoin #CryptoPsychology
+2024-10-30 19:43:12,001 - INFO - Using topic: Can Bitcoin become a mainstream payment method?
+2024-10-30 19:43:14,192 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 19:43:14,940 - INFO - Successfully posted tweet: 🚀 Is Bitcoin on its way to becoming a mainstream payment method? With increasing acceptance by retailers and a growing user base, the future looks bright! 🌟 What do you think—are we ready to pay for coffee with crypto? ☕️💰 #Bitcoin #FutureOfFinance
+2024-10-30 20:43:14,847 - INFO - Using topic: The technology behind Bitcoin: Understanding the blockchain
+2024-10-30 20:43:16,557 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-10-30 20:43:17,346 - INFO - Successfully posted tweet: 🔍 Curious about Bitcoin? It all starts with the blockchain! This revolutionary tech ensures transparency and security in every transaction. 🌐 Let’s dive into how it works and why it matters in our digital world! 💡 #Bitcoin #BlockchainEducation
+2024-10-30 23:23:09,549 - INFO - Bot stopped by user

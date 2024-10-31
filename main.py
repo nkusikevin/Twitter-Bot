@@ -275,6 +275,11 @@ class TwitterBot:
                 time.sleep(60)  # Wait a minute before retrying
 
 
+# Define the entry point function for Google Cloud
+def gcp_cfn_entry(request):
+    return "OK"
+
+
 if __name__ == "__main__":
     try:
         bot = TwitterBot()
